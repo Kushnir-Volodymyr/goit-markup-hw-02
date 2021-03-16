@@ -25,7 +25,7 @@ body{
 
 .logo:hover,
 .link:focus {
-    var(--accent-color)
+    color: var(--accent-color)
 }
 
 .logo span {
@@ -132,7 +132,7 @@ li{
 .features p {
     font-size: 14px;
     line-height: 1.7;
-    var(--secondary-text-color)
+    color: var(--secondary-text-color)
 }
 
 .section-title {
@@ -181,7 +181,7 @@ li{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #ffffff99;
+    color: hsla(0, 0%, 100%, 0.6);
 }
 
 .studio {
